@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MiCrud</string>
+    <string-array name="services_array">
+        <item>Corte de cabello varón</item>
+        <item>Corte de cabello dama</item>
+        <item>Corte de barba varón</item>
+        <item>Tintura de cabello dama</item>
+    </string-array>
+
+</resources>

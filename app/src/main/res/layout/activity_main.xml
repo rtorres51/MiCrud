@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etClientName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nombre del cliente" />
+
+    <Spinner
+        android:id="@+id/spinnerService"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Fecha (dd/mm/aaaa)" />
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Hora (hh:mm)" />
+
+    <Button
+        android:id="@+id/btnAddAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Agregar Cita" />
+
+    <Button
+        android:id="@+id/btnUpdateAppointment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Actualizar Cita"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/listViewAppointments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
